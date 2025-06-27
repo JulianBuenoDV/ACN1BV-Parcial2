@@ -19,100 +19,28 @@ body {
 
 .main {
   color: white;
-  background-color: white;
+  height: 87vh;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   place-items: center;
   background-color: rgb(0, 96, 185);
+  background-image: url(../assets/images/halftone.png);
+  background-repeat: repeat;
+  background-position: ;
+  background-size: contain;
+
   border-radius: 15px;
+  overflow: auto;
   padding: 1rem;
-}
-
-.divImg {
-  max-width: 400px;
-  max-height: 200px;
-  border-radius: 0 1rem 1rem 0;
-  overflow: hidden;
-  box-shadow: 8px 5px 5px black;
-
-  display: flex;
-  flex-direction: row;
-}
-
-.charImg {
-  object-fit: cover;
-  max-height: 200px;
-  border: 1px solid black;
-  border-radius: 0 1rem 1rem 0;
-  max-width: 200px;
-  overflow: hidden;
-}
-
-.middleCharImg {
-  object-fit: cover;
-  max-height: 200px;
-
-  border-radius: 0px;
-  max-width: 200px;
-  border: 1px solid black;
-
-  overflow: hidden;
-}
-
-.castImg {
-  min-width: 200px;
-  max-height: 200px;
-  object-fit: cover;
-  object-position: left;
-  border: 1px solid black;
-  border-color: 1px 1px white;
-  border-radius: 1rem 0 0 1rem;
-  overflow: hidden;
-}
-.castDiv {
-  width: 600px;
-  height: auto;
-  background-color: rgba(39, 133, 117, 0.5);
-  padding: 2rem;
-  margin: 1rem;
-  border-radius: 2rem;
-  overflow: hidden;
-}
-
-.contactLink {
-  font-family: book, "Handset Sans UI", system-ui, -apple-system, "Segoe UI",
-    Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-  color: aliceblue;
-  place-content: center;
-}
-
-.contactLink img {
-  margin-right: 0.5rem;
-  overflow: hidden;
-}
-
-.seasonSection {
-  border-radius: 0.5rem;
-  border-radius: 2rem;
-  padding: 0.5rem 2rem 2rem;
-  margin: 1rem;
-  min-width: 20rem;
-  background-color: black;
-}
-
-.seasonTitleContainer {
-  padding: 1rem;
-  border-radius: 1rem;
-  background-color: rgb(8, 141, 90);
-}
-
-.seasonTitle {
-  margin: 0;
 }
 
 .aboutSection {
   background-color: rgb(0, 0, 0);
   border-radius: 2rem;
   padding: 1rem;
+}
+.errorSection {
+  place-items: center;
+  padding: 1rem 1rem 2rem 1rem;
 }
 
 .titleContainer {
@@ -152,7 +80,7 @@ body {
   border-radius: 1rem 1rem 0rem 0rem;
   height: 8rem;
   color: white;
-  position: absolute;
+  position: relative;
   line-height: 1rem;
   bottom: 0;
 
@@ -162,17 +90,34 @@ body {
 
 .textContacto {
   text-align: center;
-  margin: 1rem;
+
+  padding: 0.5rem;
 }
 
 .linksContainer {
-  margin: 1rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-content: center;
 }
 
-.castTitleContainer {
-  background-color: rgb(0, 86, 143);
+.homeButton {
+  min-width: fit-content;
+
+  height: fit-content;
+  padding: 0.6rem;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin: 0.5 0.5rem 0.5rem 0.5rem;
+  background-color: rgba(7, 154, 199, 0.781);
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 2px 5px 0.5rem rgb(0, 255, 221);
+  font-weight: 500;
+  font-family: book, "Handset Sans UI", system-ui;
+}
+
+.homeButton:hover {
+  background-color: rgb(0, 187, 187);
+  transition-delay: 3ms;
+  box-shadow: 6px 9px 0.5rem rgb(0, 204, 255);
 }

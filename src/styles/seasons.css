@@ -1,0 +1,18 @@
+.seasonSection {
+  border-radius: 0.5rem;
+  border-radius: 2rem;
+  padding: 0.5rem 2rem 2rem;
+  margin: 1rem;
+  width: 90%;
+  background-color: black;
+}
+
+.seasonTitleContainer {
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: rgb(8, 141, 90);
+}
+
+.seasonTitle {
+  margin: 0;
+}

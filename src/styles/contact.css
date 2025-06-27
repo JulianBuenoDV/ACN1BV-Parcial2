@@ -1,0 +1,53 @@
+.formContacto {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+.formSection {
+  background-color: rgb(0, 0, 0);
+  border-radius: 2rem;
+  min-width: 50%;
+  padding: 1rem;
+}
+.formContainer {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+.styleInputDiv {
+  display: flex;
+  margin: 0.5rem;
+
+  flex-direction: column;
+}
+
+.contactLink {
+  font-family: book, "Handset Sans UI", system-ui, -apple-system, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  color: aliceblue;
+  place-content: center;
+}
+
+.contactLink img {
+  margin-right: 0.5rem;
+  overflow: hidden;
+}
+
+/* cool input courtesy of uiverse, i wanted it because it look cool, nothing else, ill recreate it if needed */
+.styleInput {
+  border-radius: 10px;
+  margin: 0.5rem;
+  border: 0;
+  max-width: 20rem;
+  font-family: book, "Handset Sans UI", system-ui, -apple-system, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  background-color: #e2e2e2;
+  outline-offset: 3px;
+  padding: 10px 1rem;
+  transition: 0.25s;
+}
